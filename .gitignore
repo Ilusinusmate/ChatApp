@@ -26,3 +26,10 @@ doc/api/
 *.env
 */venv
 *.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pywz
+*.pyw

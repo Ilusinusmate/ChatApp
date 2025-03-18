@@ -1,5 +1,9 @@
-import uvicorn
+import sys
+import os
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import uvicorn
 from core.setup import app
 from core.settings import *
 from core.routers import *
